@@ -17,15 +17,24 @@ Class Action {
 
 	function login(){
 		extract($_POST);
-		$qry = $this->db->query("SELECT * FROM users where username = '".$username."' and password = '".$password."' ");
-		if($qry->num_rows > 0){
-			foreach ($qry->fetch_array() as $key => $value) {
-				if($key != 'passwors' && !is_numeric($key))
-					$_SESSION['login_'.$key] = $value;
+		
+		// Use prepared statement to prevent SQL injection
+		$stmt = $this->db->prepare("SELECT * FROM users WHERE username = ? AND password = ?");
+		$stmt->bind_param("ss", $username, $password);
+		$stmt->execute();
+		$result = $stmt->get_result();
+	
+		if ($result->num_rows > 0) {
+			while ($row = $result->fetch_assoc()) {
+				foreach ($row as $key => $value) {
+					if ($key !== 'password' && !is_numeric($key)) {
+						$_SESSION['login_' . $key] = $value;
+					}
+				}
 			}
-				return 1;
-		}else{
-			return 3;
+			return 1; // Successful login
+		} else {
+			return 3; // Username or password is incorrect
 		}
 	}
 	function login2(){
