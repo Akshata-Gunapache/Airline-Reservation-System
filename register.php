@@ -1,13 +1,11 @@
 <?php include_once 'helpers/helper.php'; ?>
-
 <?php subview('header.php'); ?>
-
 <style>
 
 body {
-    background: #bdc3c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #bdc3c7; 
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+background: linear-gradient(to right, #2c3e50, #bdc3c7); 
 
 
 }
@@ -17,7 +15,6 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
 }
 h3 {
     text-align: center;
-    /* font-family: 'Italianno', cursive; */
     font-family: 'product sans', cursive;      
     font-weight: normal;
     font-size: 55px;
@@ -25,7 +22,6 @@ h3 {
 }
 
 input {
-    /* background-color: #F8F9FA !important; */
     margin-bottom: 10px;
     border :0px !important;
     border-bottom: 2px solid #838383 !important;
@@ -125,10 +121,6 @@ if(isset($_GET['error'])) {
 <main>
 <div class="container-fluid mt-0 register">
 <div class="row">
-    <!-- <div class="col-md-3 register-left">
-        
-        <h3>Welcome</h3>
-    </div> -->
     <div class="col-md-1"></div>
     <div class="col-md-10 register-right">
         <div class="tab-content" id="myTabContent">
@@ -218,10 +210,6 @@ $(document).ready(function(){
       $("label[for='"+me.attr('id')+"']").removeClass("animate-label");
     }
   }) ;
-  // $('#test-form').submit(function(e){
-  //   e.preventDefault() ;
-  //   alert("Thank you") ;
-  // })
 });    
 </script>
  
