@@ -1,4 +1,4 @@
-<?php include_once 'header.php'; ?><!-- log on to codeastro.com for more projects -->
+<?php include_once 'header.php'; ?>
 <?php include_once 'footer.php';
 require '../helpers/init_conn_db.php';?>
 <?php
@@ -20,7 +20,7 @@ if(isset($_POST['del_flight']) and isset($_SESSION['adminId'])) {
   }
 }
 ?>
-<!-- log on to codeastro.com for more projects -->
+
 <style>
 table {
   background-color: white;
@@ -110,4 +110,4 @@ td {
         <?php } ?>
 
     </main>
-	<!-- log on to codeastro.com for more projects -->
+	
