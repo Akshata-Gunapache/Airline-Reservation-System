@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $db_username = "root";
-$db_password = "Hasmita@123";
+$db_password = "";
 $db_name = 'ofbsphp';
 
 $conn = mysqli_connect($servername, $db_username, $db_password,$db_name);
