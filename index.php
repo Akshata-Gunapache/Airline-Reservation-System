@@ -3,12 +3,7 @@
     require 'helpers/init_conn_db.php';                      
 	?> 	
 <style>
-/*--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 footer {
   /* position: absolute; */
   bottom: 0;
@@ -609,7 +604,7 @@ h1 {
       }
     }
 ?>
-<!-- log on to codeastro.com for more projects -->
+
 <link rel="stylesheet" type="text/css"
         href="styles%2c_bootstrap4%2c_bootstrap.min.css%2bplugins%2c_font-awesome-4.7.0%2c_css%2c_font-awesome.min.css%2bplugins%2c_OwlCarousel2-2.2.1%2c_owl.carousel.css%2bplugins%2c_OwlCarousel2-2.2.1%2c_owl" />
 	<meta name="keywords" content="Flight Ticket Booking  Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
@@ -704,7 +699,7 @@ h1 {
 							<div class="clear"></div>
 							<input type="submit" value="Search Flights" name="search_but">
 						</form>						
-					</div>		<!-- log on to codeastro.com for more projects -->
+					</div>		
 					<div class="tab-1 resp-tab-content oneway">
 						<form action="book_flight.php" method="post">
 							<input type="hidden" name="type" value="one">
@@ -778,7 +773,7 @@ h1 {
 							<div class="clear"></div>
 							<input type="submit" value="Search Flights" name="search_but">
 						</form>																				
-	</div><!-- log on to codeastro.com for more projects -->
+	</div>
 	</div>
 	</div>
 	</div>
@@ -824,7 +819,6 @@ div.card {
    <!-- <h2 class="text-center mb-3 mt-3 display-4"
 	   style="font-style: normal;font-size:80px;">Main Attractions In India</h2>   
 	<div class="row p-5 pb-0"> -->
-<!-- log on to codeastro.com for more projects -->
 <!-- Intro -->
 <div class="intro">
             <div class="intro_background" style="background-image:url(images/intro.png)"></div>
@@ -851,7 +845,7 @@ div.card {
                                         <div class="intro_icon"><img src="assets/images/wallet.svg" alt=""></div>
                                         <div class="intro_content">
                                             <div class="intro_title">The Best Prices</div>
-                                            <div class="intro_subtitle"><!-- log on to codeastro.com for more projects -->
+                                            <div class="intro_subtitle">
                                                 <p>Visit your favourite places at a reasonable price</p>
                                             </div>
                                         </div>
@@ -871,7 +865,7 @@ div.card {
                                 </div>
                             </div>
                         </div>
-                    </div><!-- log on to codeastro.com for more projects -->
+                    </div>
                 </div>
             </div>
 			</div>
@@ -883,7 +877,7 @@ div.card {
 				<img src="assets/images/airtic.png" 
 					height="40px" width="40px" alt="">				
 			Online Flight Booking</h5></em>
-	<div class="text-light text-center">&copy; <?php echo date('Y')?> - Developed By Sujoy Dcunha, Christina Pereira, Mark Coutinho<br><br></div>
+	<div class="text-light text-center">&copy; <?php echo date('Y')?> <br><br></div>
 	<!-- <p>----------</p> -->
 	
 	</footer>	
