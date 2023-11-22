@@ -62,4 +62,4 @@ if(isset($_GET['err']) || isset($_GET['mail'])) {
 } 
 ?>
 <?php subview('footer.php'); ?> 
-
+#add this
