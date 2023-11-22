@@ -116,7 +116,7 @@ td {
                           </div>
                       </div>  
                     </td>                   
-                    <td>$ ".$price."</td>
+                    <td>Rs ".$price."</td>
                     ";
                   if(isset($_SESSION['userId']) && $row['status'] === '') {   
                     echo " <td>
