@@ -246,7 +246,6 @@ if(isset($_POST['pay_but']) && isset($_SESSION['userId'])) {
   
     mysqli_stmt_close($stmt);
     mysqli_close($conn);        
-
 } else {
     header('Location: ../payment.php');
     exit();  
