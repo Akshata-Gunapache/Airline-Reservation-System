@@ -1,6 +1,6 @@
 <?php include_once 'header.php'; 
 require '../helpers/init_conn_db.php';?>
-<!-- log on to codeastro.com for more projects -->
+
 <link rel="stylesheet" href="../assets/css/admin.css">
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&family=Poiret+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
@@ -80,7 +80,7 @@ require '../helpers/init_conn_db.php';?>
 
   
 </style>
-    <main><!-- log on to codeastro.com for more projects -->
+    <main>
         <?php if(isset($_SESSION['adminId'])) { ?>
           <div class="container">
 
@@ -121,7 +121,7 @@ require '../helpers/init_conn_db.php';?>
               
             </div>
 
-			<!-- log on to codeastro.com for more projects -->
+			
           <div class="card mt-4" id="flight">
       <div class="card-body">
           <div class="dropdown" style="float: right;">
@@ -138,7 +138,7 @@ require '../helpers/init_conn_db.php';?>
         <p class="text-secondary">Today's Flights</p>
         <table class="table-sm table table-hover">
           <thead class="thead-dark">
-            <tr><!-- log on to codeastro.com for more projects -->
+            <tr>
               <th scope="col">#</th>
               <th scope="col">Arrival</th>
               <th scope="col">Departure</th>
@@ -148,7 +148,7 @@ require '../helpers/init_conn_db.php';?>
               <th>Action</th>
             </tr>
           </thead>
-          <tbody>     <!-- log on to codeastro.com for more projects -->         
+          <tbody>         
               <?php
                 $curr_date = (string)date('y-m-d');
                 $curr_date = '20'.$curr_date;
@@ -208,7 +208,7 @@ require '../helpers/init_conn_db.php';?>
           <div class="dropdown" style="float: right;">
             <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="fa fa-filter"></i>
-            </button><!-- log on to codeastro.com for more projects -->
+            </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#flight">Today's flight</a>
               <a class="dropdown-item" href="#issue">Today's flight issues</a>
@@ -219,7 +219,7 @@ require '../helpers/init_conn_db.php';?>
         <p class="text-secondary">Today's Flight Issues</p>
         <table class="table-sm table table-hover">
         <thead class="thead-dark">
-            <tr><!-- log on to codeastro.com for more projects -->
+            <tr>
               <th scope="col">#</th>
               <th scope="col">Arrival</th>
               <th scope="col">Departure</th>
@@ -281,7 +281,7 @@ require '../helpers/init_conn_db.php';?>
           <div class="dropdown" style="float: right;">
             <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="fa fa-filter"></i>
-            </button><!-- log on to codeastro.com for more projects -->
+            </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#flight">Today's flight</a>
               <a class="dropdown-item" href="#issue">Today's flight issues</a>
@@ -292,7 +292,7 @@ require '../helpers/init_conn_db.php';?>
         <p class=" text-secondary">Flights Departed Today</p>
         <table class="table-sm table table-hover">
         <thead class="thead-dark">
-            <tr><!-- log on to codeastro.com for more projects -->
+            <tr>
               <th scope="col">#</th>
               <th scope="col">Arrival</th>
               <th scope="col">Departure</th>
@@ -354,7 +354,7 @@ require '../helpers/init_conn_db.php';?>
         <div class="dropdown" style="float: right;">
             <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="fa fa-filter"></i>
-            </button><!-- log on to codeastro.com for more projects -->
+            </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#flight">Today's flight</a>
               <a class="dropdown-item" href="#issue">Today's flight issues</a>
@@ -365,7 +365,7 @@ require '../helpers/init_conn_db.php';?>
         <p class=" text-secondary">Flights Arrived Today</p>
         <table class="table-sm table table-hover">
         <thead class="thead-dark">
-            <tr><!-- log on to codeastro.com for more projects -->
+            <tr>
               <th scope="col">#</th>
               <th scope="col">Arrival</th>
               <th scope="col">Departure</th>
