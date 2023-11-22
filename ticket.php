@@ -1,10 +1,10 @@
-<?php include_once 'helpers/helper.php'; ?><!-- log on to codeastro.com for more projects -->
+<?php include_once 'helpers/helper.php'; ?>
 <?php subview('header.php'); ?>
 <style>
 body {
   background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); 
 
 }
 @font-face {
@@ -66,7 +66,7 @@ h1 {
     font-weight: bolder;
   }
 </style>
-<main><!-- log on to codeastro.com for more projects -->
+<main>
   <?php if(isset($_SESSION['userId'])) {   
     require 'helpers/init_conn_db.php';   
     
@@ -274,6 +274,6 @@ h1 {
        ?> 
 
     </div>
-  </main><!-- log on to codeastro.com for more projects -->
+  </main>
   <?php } ?>
   <?php subview('footer.php'); ?> 
