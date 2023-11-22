@@ -25,9 +25,7 @@ button.btn-outline-light:hover {
   color: cornflowerblue !important;
 }
   .navbar-custom {
-    /* background-color: #6495ED; */
     background-color: #3a3a3a;
-    /* font-family: 'Bangers', cursive; */
     font-family: 'product sans', cursive;    
   }
   h4 {
@@ -72,11 +70,6 @@ button.btn-outline-light:hover {
                       <h5>Manage Airlines</h5>
                     </a>
                   </li>              
-                  <!-- <li class="nav-item">
-                    <a class="nav-link" href="review.php">
-                      <h4>Reviews</h4>
-                    </a>
-                  </li>                      -->
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                   <li class="nav-item">
@@ -117,5 +110,4 @@ button.btn-outline-light:hover {
                 </form> 
             </div>
             <?php } ?>
-
         </nav>
